@@ -66,7 +66,7 @@ com.ptit.workhours/
 
 ## Bảng Phân Công Công Việc Nhóm (3 Thành Viên)
 
-### Ngô Quang Huy: Cơ Sở Dữ Liệu & Logic Cốt Lõi (Database & Core Logic)
+### NGÔ QUANG HUY: Cơ Sở Dữ Liệu & Logic Cốt Lõi (Database & Core Logic)
 * **Vai trò:** Phụ trách toàn bộ lớp dữ liệu (Data Layer) và xử lý thuật toán nghiệp vụ.
 * **Chi tiết công việc:**
   - [x] Thiết kế và xây dựng các lớp Entity: `Account`, `Employee`, `WorkLog`, `Salary`.
@@ -74,7 +74,7 @@ com.ptit.workhours/
   - [x] Xây dựng logic tự động tính toán tổng giờ làm, giờ tăng ca (Overtime) và số tiền lương trong `SalaryService` & `AttendanceService`.
   - [x] Đảm bảo tính toàn vẹn dữ liệu khi thao tác với Room Database.
 
-### Nguyễn Tuấn Anh: Phân Hệ Quản Trị (Admin Module)
+### NGUYỄN TUẤN ANH: Phân Hệ Quản Trị (Admin Module)
 * **Vai trò:** Xây dựng giao diện và xử lý logic cho các chức năng dành riêng cho Admin.
 * **Chi tiết công việc:**
   - [x] Lập trình giao diện và xử lý sự kiện trên `AdminMainActivity` (Hiển thị danh sách, tìm kiếm nhân viên, nút bấm `CALCULATE` tính lương theo tháng/năm).
@@ -82,7 +82,7 @@ com.ptit.workhours/
   - [x] Xây dựng màn hình `EmployeeEditActivity` (Thực hiện thêm, cập nhật, xóa nhân viên).
   - [x] Kết nối và hiển thị dữ liệu từ `EmployeeDao` và `SalaryDao` lên danh sách (`ListView`/`RecyclerView`).
 
-### Nguyễn Thành Long: Đăng Nhập, Phân Hệ Nhân Viên & UI/UX (Auth, Employee & UI)
+### NGUYỄN THÀNH LONG: Đăng Nhập, Phân Hệ Nhân Viên & UI/UX (Auth, Employee & UI)
 * **Vai trò:** Phụ trách luồng xác thực người dùng, phân quyền và giao diện dành cho Nhân viên.
 * **Chi tiết công việc:**
   - [x] Phát triển màn hình `LoginActivity` và cơ chế kiểm soát phiên làm việc `SessionManager` (phân quyền Admin/Employee).
